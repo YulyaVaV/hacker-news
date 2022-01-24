@@ -1,0 +1,24 @@
+@import '../colors/vars.scss';
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  background: $orangeColor;
+  height: 22px;
+  margin-bottom: 12px;
+  
+  &__icon {
+    width: 18px;
+    height: 18px;
+    border: 1px solid $whiteColor;
+    margin: 1px;
+  }
+  
+  &__title {
+    font-weight: bold;
+    font-size: 13px;
+    color: $blackColor;
+  }
+}
+  
