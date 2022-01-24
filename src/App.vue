@@ -1,9 +1,6 @@
 <template>
 <div class="page">
-  <header class="header">
-    <img src="./assets/images/icon.png" alt="hacker news" class="header__icon">
-    <a href="/" class="header__title">Hacker News</a>
-  </header>
+  <Header />
     <div v-for="(story, index) in stories" :key="story" class="story">
       <p class="story__index">{{index + this.start + 1}}.</p>
       <div class="story__content">
@@ -32,11 +29,12 @@
 import axios from 'axios';
 import './assets/styles/App.scss';
 import Pagination from './components/Pagination.vue';
+import Header from './components/Header.vue'
 
 export default {
   name: 'App',
   components: { 
-    Pagination 
+    Pagination, Header
   },
 
   data() {

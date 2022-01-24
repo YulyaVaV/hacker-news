@@ -1,7 +1,7 @@
 <template>
   <div id="arrayPagination">
     <p class="story__buttons">
-      <button class="story__btn" @click="prevPage($event.target)">{{"prev"}}</button>
+      <button class="story__btn" @click="prevPage($event.target)">prev</button>
       <button class="story__btn" @click="nextPage($event.target)">more...</button>
     </p>
   </div>
