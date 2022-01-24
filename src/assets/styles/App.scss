@@ -1,0 +1,122 @@
+@import '../colors/vars.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.page {
+  margin: 7px 140px 0;
+  background: $bgColor;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  background: $orangeColor;
+  height: 22px;
+  margin-bottom: 12px;
+  
+  &__icon {
+    width: 18px;
+    height: 18px;
+    border: 1px solid $whiteColor;
+    margin: 1px;
+  }
+  
+  &__title {
+    font-weight: bold;
+    font-size: 13px;
+    color: $blackColor;
+  }
+}
+
+.story {
+  font-size: 13px;
+  color: $mainGrayColor;
+  margin: 0 0 5px 10px;
+  padding-left: 8px;
+  display: flex;
+  
+  &__header {
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 4px;
+  }
+  
+  &__content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+  }
+
+  &__title {
+    color: $blackColor;
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+    padding-right: 7px;
+  }
+
+  &__url {
+    color: $mainGrayColor;
+    font-size: 10px;
+    cursor: pointer;
+  }
+
+  &__wrapp {
+    display: flex;
+    gap: 2px;
+    font-size: 9px;
+  }
+
+  &__by {
+    color: $mainGrayColor;
+    cursor: pointer;
+  }
+
+  &__hours {
+    color: $mainGrayColor;
+    border-right: 1px solid $mainGrayColor;
+    padding-right: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  &__comments {
+    color: $mainGrayColor;
+    cursor: pointer;
+  }
+  
+  &__footer {
+    background: $bgColor;
+    padding: 15px 0;
+    border-top: 3px solid $orangeColor;
+    margin-top: 20px;
+  }
+
+  &__buttons {
+    margin-left: 50px;
+    display: flex;
+    gap: 10px;
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.4s;
+    font-weight: 600;
+    
+    &:hover {
+      color: $orangeColor;
+    }
+  }
+}
