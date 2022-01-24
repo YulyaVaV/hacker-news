@@ -1,6 +1,14 @@
-# hecker-news
+# Hacker News
 
-## Project setup
+- [DEMO LINK HERE](https://yulyavav.github.io/hacker-news/)
+- [Public API](https://github.com/HackerNews/API)
+
+------------------------------------------
+Vue, HTML, SCSS, BEM, Pagination
+-----------------------------------
+
+
+### Project setup
 ```
 npm install
 ```
