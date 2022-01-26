@@ -11,4 +11,11 @@
   margin: 7px 140px 0;
   background: $bgColor;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  &__footer {
+    background: $bgColor;
+    padding: 15px 0;
+    border-top: 3px solid $orangeColor;
+    margin-top: 20px;
+  }
 }

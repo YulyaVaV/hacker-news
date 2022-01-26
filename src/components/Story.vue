@@ -1,6 +1,6 @@
 <template>
   <div v-for="(story, index) in stories" :key="story" class="story">
-    <p class="story__index">{{index + this.start + 1}}.</p>
+    <span class="story__index">{{index + this.start + 1}}.</span>
     <div class="story__content">
       <div class="story__header">
         <a :href="story.data.title" class="story__title">{{capitalizeFirstLetter(story.data.title)}} </a>

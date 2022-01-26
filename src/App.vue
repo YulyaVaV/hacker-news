@@ -5,7 +5,7 @@
     :stories="stories"
     :start="start"
   />
-  <footer class="story__footer">
+  <footer class="page__footer">
     <Pagination
       :prevPage="prevPage"
       :nextPage="nextPage"
